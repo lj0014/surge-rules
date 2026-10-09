@@ -1,0 +1,15 @@
+# Caixin enterprise proxy rules for Surge RULE-SET
+# Extracted from caixin_select2.conf; original matching scope preserved.
+# Assign your enterprise proxy policy on the RULE-SET line in your profile.
+
+DOMAIN,gateway.caixin.com
+DOMAIN,deepview-dynamic.caixin.com
+DOMAIN,stock.caixin.com
+DOMAIN,entities.caixin.com
+DOMAIN,cxdata.caixin.com
+DOMAIN,bond.caixin.com
+DOMAIN,getavatar.caixin.com
+DOMAIN,cnzz.com
+DOMAIN,volces.com
+DOMAIN,ceic.caixin.com
+IP-CIDR,2.2.2.2/32
